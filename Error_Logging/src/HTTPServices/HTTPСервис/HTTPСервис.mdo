@@ -8,4 +8,37 @@
   <rootURL>Main</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="994028f2-077a-4ef4-9111-0a8aa62bed87">
+    <name>ПолучитьИнформацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить информацию</value>
+    </synonym>
+    <template>/getInfo</template>
+    <methods uuid="131e1f21-1002-455f-add6-1dd8e3535a7a">
+      <name>ПолучитьИнформацию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить информацию</value>
+      </synonym>
+      <handler>ПолучитьИнформациюПолучитьИнформацию</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f69c3791-68e3-4b85-8df2-0c5c661c4675">
+    <name>ОтправитьОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить отчет</value>
+    </synonym>
+    <template>/pushReport</template>
+    <methods uuid="7a4cfe73-39a2-4103-ae03-a4828f7d0bd2">
+      <name>ОтправитьОтчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправить отчет</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОтправитьОтчетОтправитьОтчет</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
